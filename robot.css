@@ -4,6 +4,12 @@ body
   color: #FFF;
 }
 
+textarea
+{
+  background-color: #000;
+  color: #FFF;
+}
+
 #switches
 {
   width: 100%;
