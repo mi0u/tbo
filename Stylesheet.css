@@ -267,7 +267,7 @@ body
 
 @keyframes border-bump {
   0% {
-    outline: 0.4em dotted lightgreen;
+    outline: 1.4em dotted lightgreen;
   }
   
   100% {
