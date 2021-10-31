@@ -35,7 +35,7 @@ document.querySelector("#start").addEventListener("click", () => {
   speech.text = document.querySelector("textarea").value;
   setStatus('speaking');
   window.speechSynthesis.speak(speech);
-  setStatus('thinking')
+  //setStatus('thinking');
 });
 
 document.querySelector("#pause").addEventListener("click", () => {
