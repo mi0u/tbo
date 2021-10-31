@@ -33,7 +33,7 @@ document.querySelector("#voices").addEventListener("change", () => {
 
 document.querySelector("#start").addEventListener("click", () => {
   speech.text = document.querySelector("textarea").value;
-  speech.rate = rate; speech.volume = volume; speech.volume = volume;
+  speech.rate = 1; speech.volume = 1; speech.volume = 1;
   setStatus('speaking');
   window.speechSynthesis.speak(speech);
   //setStatus('thinking');
