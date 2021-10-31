@@ -3,7 +3,7 @@
 
 <head>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="Stylesheet.css">
+  <link rel="stylesheet" href="robot.css">
 </head>
 
 <body>
@@ -32,8 +32,15 @@
     <li onmouseover="setStatus('listening')"> Listening </li>  
     <li onmouseover="setStatus('computing')"> Computing </li>  
   </ul>
+  <textarea class="form-control bg-dark text-light mt-5" cols="30" rows="10" placeholder="Type here..."></textarea>
+    <div class="mb-5">
+      <button id="start" class="btn btn-success mt-5 me-3">Start</button>
+      <button id="pause" class="btn btn-warning mt-5 me-3">Pause</button>
+      <button id="resume" class="btn btn-info mt-5 me-3">Resume</button>
+      <button id="cancel" class="btn btn-danger mt-5 me-3">Cancel</button>
+    </div>
 </div>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src="JavaScript.js"></script>
+<script src="robot.js"></script>
 </body>
 </html>
