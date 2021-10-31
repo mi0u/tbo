@@ -8,7 +8,7 @@ window.speechSynthesis.onvoiceschanged = () => {
   let voiceSelect = document.querySelector("#voices");
   voices.forEach((voice, i) => (voiceSelect.options[i] = new Option(voice.name, i)));
 };
-
+/*
 document.querySelector("#rate").addEventListener("input", () => {
   const rate = document.querySelector("#rate").value;
   speech.rate = rate;
@@ -26,7 +26,7 @@ document.querySelector("#pitch").addEventListener("input", () => {
   speech.pitch = pitch;
   document.querySelector("#pitch-label").innerHTML = pitch;
 });
-
+*/
 document.querySelector("#voices").addEventListener("change", () => {
   speech.voice = voices[document.querySelector("#voices").value];
 });
